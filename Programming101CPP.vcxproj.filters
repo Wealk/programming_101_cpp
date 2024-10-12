@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Syllabus">
+      <UniqueIdentifier>{2ed16b39-85a8-47b7-997e-a44843d798af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Syllabus\Solutions">
+      <UniqueIdentifier>{0e07c2b3-9ee2-4da7-a21f-cb444775b205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Syllabus\Solutions\OOP">
+      <UniqueIdentifier>{5fab9f44-b3a5-40a9-810c-a533019c956f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Syllabus\Solutions\AdvancedSets">
+      <UniqueIdentifier>{4203915a-f93c-45c1-951f-03c252759057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Practice">
+      <UniqueIdentifier>{3dfdf8c6-1544-4dba-a5c2-706b5b9ee8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Practice\Solution">
+      <UniqueIdentifier>{7a24d0c9-364a-4993-8326-a0198bea1009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Practice\Solution\Enums">
+      <UniqueIdentifier>{041b20a4-3127-45f3-b98b-ef2e3d68a35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Practice\Solution\Dungeon">
+      <UniqueIdentifier>{9d6f3d53-6243-47c7-841b-009626c5514d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Practice\Solution\Entities">
+      <UniqueIdentifier>{717a7b2c-b36d-4f0c-8def-44f5f195f563}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrintTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\Syllabus\Solutions\AdvancedSets</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeNode.h">
+      <Filter>Header Files\Syllabus\Solutions\AdvancedSets</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Syllabus\Solutions\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="IPurchaseItem.h">
+      <Filter>Header Files\Syllabus\Solutions\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeType.h">
+      <Filter>Header Files\Syllabus\Solutions\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="Smartphone.h">
+      <Filter>Header Files\Syllabus\Solutions\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="1Primitives.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="2Operators.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="3ControlFlow.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="4Sets.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="5Methods.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="6ObjetcOrientedProgramming.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="7AdvancedSets.h">
+      <Filter>Header Files\Syllabus</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Header Files\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonSearcher.h">
+      <Filter>Header Files\Practice\Solution</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonTileType.h">
+      <Filter>Header Files\Practice\Solution\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonPosition.h">
+      <Filter>Header Files\Practice\Solution\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonTile.h">
+      <Filter>Header Files\Practice\Solution\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionType.h">
+      <Filter>Header Files\Practice\Solution\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Practice\Solution\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventurer.h">
+      <Filter>Header Files\Practice\Solution\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Practice\Solution\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
